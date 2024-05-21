@@ -1,0 +1,49 @@
+#footer
+{
+    height:150px;
+   
+    display: flex;
+    gap: 1%;
+}
+h3
+{
+    text-align: center;
+}
+#fitem
+{
+    width:24%;
+   display: flex;
+   text-align: center;
+    background-color: rgb(131, 72, 72);
+    height:150px;
+}
+#matchname
+{
+    width: 40%;
+    height: 80px;
+    padding-top:70px;
+    font-size: 25px ;
+    font-family: cursive;
+    background-color: yellow;
+}
+#matchdetails
+{   
+width: 60%;
+height: 150px;
+background-color: purple;
+}
+    #teams
+    {
+        height: 50px;
+        padding-top:25px;
+        width: 100%;
+        background-color: palegreen;
+    }
+ #stadiun
+ {
+    height: 50px;
+        padding-top:25px;
+    width: 100%;
+    background-color: coral;
+ }
+
