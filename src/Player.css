@@ -1,0 +1,40 @@
+.playercontainer
+{
+    text-align: center;
+    width: 30%;
+    height: 450px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: #bec2c6bd;
+    border:  1px double blue;
+}
+.playerDetails
+{
+    padding-top: 5px;
+    height: 85px;
+    background-color: #dd870f;
+}
+.playerHeading
+{
+       
+        height: 75px;
+        width: 100%;
+        background-color: #193889;
+        color: white;
+        font-size: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.playername
+{    font-size: 25px;
+    font-family: cursive;
+    color: #3a066a;
+
+}
+h3
+{margin:1px;
+  
+    font-weight: normal;
+    font-size:15px;
+}

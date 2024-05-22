@@ -3,7 +3,12 @@
   margin-right:10%;
   
 }
-
+.players
+{
+  display: flex;
+  flex-wrap: wrap;
+  gap:3%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
