@@ -1,0 +1,45 @@
+.itemmsContainer
+{
+    display: flex;
+    gap:10px;
+    margin-left:10%;
+    width:80%;
+    flex-wrap: wrap;
+}
+
+.item{
+    width:23%;
+    background-color: #ededed5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item>img
+{
+    padding: 5px;
+    box-sizing: content-box;
+    height: 100px;
+    width: 100%;
+}
+.productName
+{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    font-family:Roboto, Arial, sans-serif;
+}
+.productbrand
+{
+background-color: blue;
+}
+.productprice
+{
+    font-size: 25px;
+    font-weight: 500;
+}
+.productprice::after
+{
+    content: " Rs";
+}
