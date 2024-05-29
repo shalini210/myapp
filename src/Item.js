@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Counter from './Counter'
 export default function Item(props) {
   return (
     <>
@@ -13,7 +13,8 @@ export default function Item(props) {
     </ul>
     <div className='productprice'>{props.price}</div>
     
-    <input type="button" value="Show Details "></input>
+    <input type="button" value="Add to cart"></input>
+    <Counter></Counter>
     </div>
     </>
   )
